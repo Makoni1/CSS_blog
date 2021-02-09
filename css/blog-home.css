@@ -1,0 +1,104 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template/blog-home)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  font-family: 'Montserrat', sans-serif;
+  color: #35496a;    
+}
+.logo {
+  height: 63px;  
+}
+
+section {
+  margin-top: 50px;
+}
+
+#navigation {
+/*  background-color:#35496a;  */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(to bottom, #35496a , #643fbf); 
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #e3a90e;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#more {
+  display: none;
+}
+
+/* search */
+form.example input[type=text] {
+  font-size: 17px;
+  border: 1px solid  #35496a;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-top-left-radius: 8px;  
+  border-bottom-left-radius: 8px;
+}
+#search {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: #1c294f;
+  border-color: #1c294f; 
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;   
+}
+
+/* icon-bar */
+
+.icon-bar {
+      width: 100%;
+  width: 90px; /* Set a specific width */
+  background-color: #555; /* Dark-grey background */
+  margin-top: 100px;
+  position: fixed;
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+    
+/* for icons */
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
