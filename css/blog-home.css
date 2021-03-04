@@ -6,7 +6,8 @@
 body {
   padding-top: 56px;
   font-family: 'Montserrat', sans-serif;
-  color: #35496a;    
+  color: #35496a;
+    
 }
 .logo {
   height: 63px;  
@@ -64,36 +65,72 @@ form.example input[type=text] {
 /* icon-bar */
 
 .icon-bar {
-      width: 100%;
-  width: 90px; /* Set a specific width */
-  background-color: #555; /* Dark-grey background */
+  width: 100%;
+  width: 35px; /* Set a specific width */
+  /* Dark-grey background */
   margin-top: 100px;
   position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .icon-bar a {
   display: block; /* Make the links appear below each other instead of side-by-side */
   text-align: center; /* Center-align text */
-  padding: 16px; /* Add some padding */
+  padding: 8px; /* Add some padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: white; /* White text color */
   font-size: 36px; /* Increased font-size */
 }
 
 .icon-bar a:hover {
-  background-color: #000; /* Add a hover color */
+  background-color: #8a8888; /* Add a hover color */
 }
 
-.active {
-  background-color: #4CAF50; /* Add an active/current color */
+.bi {
+    margin-left: -2px;
+    width: 25px;
+    height: 25px;
+    color: #21075e; 
 }
-    
 /* for icons */
 
 .responsive {
     width: 100%;
     height: auto;
 }
+
+/* choose-item */
+
+ul.dropdown-search-box {
+  max-height: 300px;
+  width: 270px;
+  overflow-y: auto;
+}
+/*
+ul.dropdown-search-box .search-box {
+  padding: 0 5px 5px 5px;
+  border-bottom: 1px solid #ddd;
+}
+*/
+
+@media (min-width: 300px) { 
+        .dropdown-menu {
+            margin-left: 200px;
+        }
+        .icon-bar {
+            display: none;
+        }
+
+}
+
+button#select.btn.btn-outline.dropdown-toggle::after {
+    display: none;
+}
+
+    
+
+   
 
 
 
